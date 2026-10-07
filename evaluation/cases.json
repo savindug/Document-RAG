@@ -1,0 +1,40 @@
+{
+  "documents": ["policy.md", "travel.txt", "inventory.csv"],
+  "cases": [
+    {
+      "question": "How many days of annual leave do employees receive?",
+      "expected_source": "policy.md",
+      "expected_page": null,
+      "expected_keywords": ["20 days", "annual leave"],
+      "answerable": true
+    },
+    {
+      "question": "How many remote work days are allowed each week?",
+      "expected_source": "policy.md",
+      "expected_page": null,
+      "expected_keywords": ["two days", "remotely"],
+      "answerable": true
+    },
+    {
+      "question": "When must employees submit travel expense claims?",
+      "expected_source": "travel.txt",
+      "expected_page": null,
+      "expected_keywords": ["30 days", "expense claims"],
+      "answerable": true
+    },
+    {
+      "question": "How many pens are in the North office?",
+      "expected_source": "inventory.csv",
+      "expected_page": null,
+      "expected_keywords": ["Pens", "12", "North office"],
+      "answerable": true
+    },
+    {
+      "question": "What is the CEO's home address?",
+      "expected_source": null,
+      "expected_page": null,
+      "expected_keywords": [],
+      "answerable": false
+    }
+  ]
+}

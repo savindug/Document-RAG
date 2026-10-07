@@ -1,0 +1,12 @@
+streamlit>=1.40,<2
+langchain>=1,<2
+langchain-google-genai>=4,<5
+langchain-chroma>=1,<2
+langchain-unstructured>=1,<2
+sentence-transformers>=5,<6
+chromadb>=1,<2
+unstructured[pdf,md,doc,docx,csv]>=0.27,<0.28
+unstructured-client>=0.46,<1
+pydantic>=2,<3
+python-dotenv>=1,<2
+pytest>=8,<10
